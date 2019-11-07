@@ -1,7 +1,7 @@
 package com.helloyoung.utils;
 
 import com.alibaba.fastjson.JSON;
-import entitys.UrlInfo;
+import com.helloyoung.entitys.UrlInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
@@ -49,8 +49,6 @@ public class KafkaSender {
         producer.flush();
 
     }
-
-
 
 
     public static void main(String[] args) throws InterruptedException {

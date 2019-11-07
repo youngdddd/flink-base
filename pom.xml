@@ -66,6 +66,20 @@ under the License.
 			<version>${flink.version}</version>
 			<scope>provided</scope>
 		</dependency>
+        <!--scala配置-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.flink</groupId>-->
+            <!--<artifactId>flink-scala_2.11</artifactId>-->
+            <!--<version>${flink.version}</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.flink</groupId>-->
+            <!--<artifactId>flink-streaming-scala_2.11</artifactId>-->
+            <!--<version>${flink.version}</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
+
 
 		<!-- Add connector dependencies here. They must be in the default scope (compile). -->
 

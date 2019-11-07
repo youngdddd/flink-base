@@ -1,4 +1,4 @@
-package entitys;
+package com.helloyoung.entitys;
 
 import lombok.Data;
 
