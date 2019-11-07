@@ -70,8 +70,7 @@ public class WikipediaAnalysis {
             public String map(Tuple2<String, Long> tuple) throws Exception {
                 return tuple.toString();
             }
-        })
-                .addSink(new FlinkKafkaProducer011<>("localhost:9092", "wiki-result", new SimpleStringSchema()));
+        }).addSink(new FlinkKafkaProducer011<>("localhost:9092", "wiki-result", new SimpleStringSchema()));
 
         see.execute();
     }

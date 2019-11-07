@@ -107,6 +107,16 @@ under the License.
 			<artifactId>flink-connector-kafka-0.11_2.11</artifactId>
 			<version>${flink.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+            <version>1.18.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.51</version>
+        </dependency>
 	</dependencies>
 
 	<build>
