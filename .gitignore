@@ -9,5 +9,4 @@ out
 gen
 target/
 /dependency-reduced-pom.xml
-/flink-base.iml
 /src/main/test/
